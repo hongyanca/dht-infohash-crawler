@@ -1,18 +1,20 @@
 {
-  "name": "dht-playground",
-  "version": "0.0.1",
-  "description": "DHT Playground",
-  "main": "index.js",
+  "name": "dhtcrawler",
+  "version": "0.1.0",
+  "description": "DHT Crawler",
+  "main": "lib/dhtcrawler.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "DHT"
+    "DHT",
+    "Crawler",
+    "BT",
+    "BitTorrent"
   ],
   "author": "Hong Yan",
   "license": "ISC",
   "dependencies": {
-    "bencode": "^0.10.0",
-    "co": "^4.6.0"
+    "bencode": "^0.10.0"
   }
 }
