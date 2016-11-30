@@ -1,0 +1,18 @@
+{
+  "name": "dht-playground",
+  "version": "0.0.1",
+  "description": "DHT Playground",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "DHT"
+  ],
+  "author": "Hong Yan",
+  "license": "ISC",
+  "dependencies": {
+    "bencode": "^0.10.0",
+    "co": "^4.6.0"
+  }
+}
