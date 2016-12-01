@@ -13,7 +13,7 @@
     "BitTorrent"
   ],
   "author": "Hong Yan",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "bencode": "^0.10.0"
   }
