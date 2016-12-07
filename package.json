@@ -1,16 +1,23 @@
 {
-  "name": "dhtcrawler",
-  "version": "0.1.0",
-  "description": "DHT Crawler",
+  "name": "dht-infohash-crawler",
+  "version": "0.2.1",
+  "description": "DHT Infohash Crawler",
   "main": "lib/dhtcrawler.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository" :{
+    "type" : "git",
+    "url" : "https://github.com/homeryan/dht-infohash-crawler"
+  },
   "keywords": [
     "DHT",
     "Crawler",
+    "infohash",
     "BT",
-    "BitTorrent"
+    "p2p",
+    "BitTorrent",
+    "BEP-5"
   ],
   "author": "Hong Yan",
   "license": "MIT",
