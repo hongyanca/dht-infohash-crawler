@@ -19,6 +19,7 @@ npm install dht-infohash-crawler
 ## API
 
 ### `createCrawler(opts)`
+### `crawler.on('infohash', callbackFn(infohash, peerId, peerAddress) {})`
 
 Options are:
 ```js
