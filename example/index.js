@@ -1,5 +1,5 @@
-const createCrawler = require('../lib/dhtcrawler');
-const InfohashQueue = require('../lib/infohashqueue');
+const createCrawler = require('../index');
+const InfohashQueue = require('../index').InfohashQueue;
 const recentInfohashes = new InfohashQueue(1024);
 
 const CONSOLE_NC = '\033[0m';

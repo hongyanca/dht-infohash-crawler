@@ -4,13 +4,13 @@
 
 This module partially implements BEP-5 to listen on DHT network for infohashes. It's based on [dontcontactme](https://github.com/dontcontactme)'s [nodeDHT](https://github.com/dontcontactme/nodeDHT). The [example](https://github.com/homeryan/dht-infohash-crawler/blob/master/example/index.js) code shows how to create multipul crawler instances to boost the crawling speed. After getting infohashes from DHT network peers, [bep9-metadata-dl](https://github.com/homeryan/bep9-metadata-dl) can be used to fetch the metadata. 
 
-## features
+## Features
 
 - Simple API
 - Find peers from the DHT network
 - Node.js event emitter based interface
 
-## install
+## Install
 
 ```
 npm install dht-infohash-crawler
