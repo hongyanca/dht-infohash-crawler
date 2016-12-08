@@ -1,6 +1,6 @@
 const createCrawler = require('../index');
-const InfohashQueue = require('../index').InfohashQueue;
-const recentInfohashes = new InfohashQueue(1024);
+const createInfohashQueue = require('../lib/infohashqueue');
+const recentInfohashes = createInfohashQueue(1024);
 
 const CONSOLE_NC = '\033[0m';
 // const CONSOLE_RED = '\033[0;31m';
