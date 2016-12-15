@@ -1,6 +1,6 @@
 {
   "name": "dht-infohash-crawler",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "DHT Infohash Crawler",
   "main": "index.js",
   "scripts": {
